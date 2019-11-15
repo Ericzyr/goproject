@@ -1,0 +1,8 @@
+package main
+
+import "fmt"
+
+func main()  {
+	var a int = 10
+	fmt.Println("var address is",a, "ok")
+}
