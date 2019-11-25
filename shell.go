@@ -1,6 +1,10 @@
 package main
 
-import ("fmt";"os";"runtime")
+import (
+	"fmt"
+	"os"
+	"runtime"
+)
 
 func main()  {
 
@@ -15,6 +19,6 @@ func main()  {
 	if err != nil {
 		fmt.Printf("%s", err)
 	} else {
-		fmt.Printf("%s", host)
+		fmt.Printf("hostname: %s", host)
 	}
 }

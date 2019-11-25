@@ -6,8 +6,7 @@ import (
 )
 
 func main()  {
-
-	a:=exec.Command("pwd")
+	a:=exec.Command("ifconfig")
 	fmt.Println(*a)
 
 }

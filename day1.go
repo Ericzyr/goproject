@@ -25,7 +25,7 @@ var P persion
 //接口的声明
 type golang interface {}
 
-func main()  {
+func main() {
 	a :=persion{name:"jack",age:15}
 	a.name="jack"
 	P.name="josh"
@@ -51,5 +51,4 @@ func forgo()  {
 	} else {
 		fmt.Println("比较大小",b,"<",a)
 	}
-
 }

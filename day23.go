@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	num := AddTest.Add(2,3)
-	fmt.Println("2 + 3 =",num)
+	num := AddTest.Add(2)
+	fmt.Println("2 + 3 =",num(5))
 }

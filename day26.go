@@ -7,9 +7,9 @@ func main()  {
 		fmt.Println(&i)
 		u :=&i
 		fmt.Println(*u)
-			defer func() {
-				fmt.Println(&i)
-	}()
+		defer func() {
+			fmt.Println("first 1",&i)
+		}()
 	}
 }
 

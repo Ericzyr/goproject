@@ -4,7 +4,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/kirinlabs/HttpRequest"
+	"HttpRequest"
 	"log"
 )
 

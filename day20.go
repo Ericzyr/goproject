@@ -1,7 +1,14 @@
 package main
-import "fmt"
 
-const IP = 3.1415926
+import (
+	"fmt"
+	"reflect"
+)
+
+const IP = 3.14159262324224
+var st int
+
 func main()  {
-	fmt.Println(IP * 5)
+	var a float64= IP*5
+	fmt.Println(a,reflect.TypeOf(a))
 }

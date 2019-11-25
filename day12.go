@@ -8,8 +8,6 @@ type tool struct {
 	}
 }
 
-
-
 func main()  {
 	t :=tool{name:"pencil",use:"write"}
 	t.kind.student="jack"

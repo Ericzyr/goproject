@@ -5,10 +5,10 @@ import "fmt"
 func main()  {
 	a:=2
 	switch{
-	case a>0:
+	case a > 0:
 		fmt.Println("a=1")
 		fallthrough
-	case a>=2:
+	case a >= 2:
 		fmt.Println("a=2")
 	default:
 		fmt.Println("none")

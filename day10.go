@@ -6,7 +6,7 @@ type computer struct {
 	tools string
 }
 
-func (a computer) OpenWeb(fileter string ){
+func (a *computer) OpenWeb(fileter string ){
 	fmt.Print("use ",a.tools," watch ",fileter)
 
 }

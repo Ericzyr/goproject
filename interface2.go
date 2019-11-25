@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"reflect"
 )
 
 type Phone interface {
@@ -25,14 +24,9 @@ func (iPhone IPhone) call() {
 
 
 func main() {
-
-	var a interface{}
-
-
 	var phone Phone
 
-
-	phone =NokiaPhone{}
+	phone = NokiaPhone{}
 	phone.call()
 
 	phone = IPhone{}

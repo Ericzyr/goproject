@@ -5,6 +5,7 @@ import "fmt"
 func main()  {
 	//定义变量
 	var num int =10
+	fmt.Println(num)
 
 	//定义指针
 	var ptr *int
@@ -19,7 +20,5 @@ func main()  {
 	//根据指针修改值
 	*ptr=20
 	fmt.Println(num)
-
-
 
 }
